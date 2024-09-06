@@ -4,4 +4,4 @@ for (let dollars = 10;
     dollars += 10) {
         let UAH = dollars * exchange;
         console.log( `${dollars} dollars = ${UAH} UAH`);
-}
+    }
