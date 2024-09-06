@@ -14,5 +14,3 @@ function askUserNumber() {
     }
     console.log(`Ваше останнє число - ${askInput}`);
 }
-
-askUserNumber();

@@ -3,4 +3,5 @@ function multiply(a) {
         return a * b;
     }
 }
+
 const result = multiply(5)(2); // 10

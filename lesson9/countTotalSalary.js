@@ -1,3 +1,4 @@
+
 let company = {
 
     sales: [{name: 'John', salary: 1000}, {name: 'Alice', salary: 600 }],
