@@ -1,12 +1,13 @@
-let = {
-    name : "Mickhail",
+let info = {
+    name : "Igor",
     surname : "Novak",
     age : 25,
     country : "Ukraine",
 
-    infoUserCard: function () {
-        console.log(`Ім'я користувача: &{this.name} , Фамілія користувача: &{this.surname} , Вік: &{this.age} ,Народився: &{this.country}`);
-        return;
+    infoUserCard:function() {
+        console.log(`Ім'я: ${name} , Фамілія: ${surname} ,Вік: ${age}. Країна: ${country}`);
+    
     }
-
 };
+
+info.infoUserCard();
