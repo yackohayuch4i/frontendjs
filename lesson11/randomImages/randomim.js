@@ -13,5 +13,4 @@ function getRandomIm () {
     return image[randomIndex];
 }
 
-const imgEl = document.querySelector('imageRandom');
-imgEl.src = `imagesforcode/$ {getRandomIm()}` ;
+export const imgEl = document.querySelector('imageRandom');
