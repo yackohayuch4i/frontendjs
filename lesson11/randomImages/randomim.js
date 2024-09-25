@@ -13,4 +13,5 @@ function getRandomIm () {
     return image[randomIndex];
 }
 
-export const imgEl = document.querySelector('imageRandom');
+const imgEl = document.getElementById('imageRandom');
+imgEl.src = `imagesj/$ {getRandomIm()}`
