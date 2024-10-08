@@ -14,4 +14,4 @@ function getRandomIm () {
 }
 
 const imgEl = document.getElementById('imageRandom');
-imgEl.src = `imagesj/$ {getRandomIm()}`
+imgEl.src = ``
