@@ -1,17 +1,17 @@
-let image = [
-    '1.img',
-    '2.img',
-    '3.img',
-    '4.img',
-    '5.img',
-    '6.img',
-    '7.img'
+let images = [
+    'img/1.jpg',
+    'img/2.jpg',
+    'img/3.jpg',
+    'img/4.jpg',
+    'img/5.jpg',
+    'img/6.jpg',
+    'img/7.jpg'
 ];
 
-function getRandomIm () {
-    const randomIndex = Math.floor(Math.random() * image.length);
-    return image[randomIndex];
+function getRandomImage() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
 }
 
 const imgEl = document.getElementById('imageRandom');
-imgEl.src = ``
+imgEl.src = getRandomImage();
