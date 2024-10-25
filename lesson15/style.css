@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #FFEEAD;
+    place-items: center;
+}
+
+div {
+    background: #FFAD60;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 20px;
+    width: 500px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+h1 {
+    padding-left: 10px;
+    margin: 5px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A66E38;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #96CEB4;
+    color: #ffffff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+input {
+    border: none;
+    background-color: #FFAD60;
+}
+
+input::placeholder {
+    font-family: monospace;
+    color: #ffffff;
+}

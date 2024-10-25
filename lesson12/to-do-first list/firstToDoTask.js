@@ -15,6 +15,6 @@ AddButton.addEventListener ('click', function(event){
 taskList.addEventListener ('click', function(event){
     if(event.target.tagName === 'BUTTON'){
         const li = event.target.parentElement;
-        taskList.removeChild(li);
+        taskList.removeChild(li);console.log();
     }
 });
