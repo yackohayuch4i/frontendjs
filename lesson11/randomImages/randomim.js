@@ -1,11 +1,11 @@
-let images = [
-    'img/1.jpg',
-    'img/2.jpg',
-    'img/3.jpg',
-    'img/4.jpg',
-    'img/5.jpg',
-    'img/6.jpg',
-    'img/7.jpg'
+const images = [
+    '1.jpg',
+    '2.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg',
+    '6.jpg',
+    '7.jpg'
 ];
 
 function getRandomImage() {
@@ -14,4 +14,11 @@ function getRandomImage() {
 }
 
 const imgEl = document.getElementById('imageRandom');
-imgEl.src = getRandomImage();
+
+function displayRandomImage() {
+    const randomImage = getRandomImage();
+    imgEl.src = `../img/${randomImage}`; 
+}
+
+// Початкове зображення
+displayRandomImage();
