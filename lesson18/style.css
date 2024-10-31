@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(99, 140, 103);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: bisque;
+    margin: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.box {
+    background-color: rgb(58, 96, 68);
+    border-radius: 30px;
+}
+
+#timer {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+}
