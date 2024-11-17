@@ -1,0 +1,12 @@
+body {
+    color: beige;
+}
+
+#map {
+    height: 650px;
+    width: 650px;
+    margin: 0 auto;
+    padding: 150px;
+    border-radius: 5px;
+    border: 5px solid burlywood;
+}
