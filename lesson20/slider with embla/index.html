@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider with Embla</title>
+    <script src="https://cdn.jsdelivr.net/npm/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+</head>
+<body>
+    <div class="embla">
+        <div class="embla__container">
+            <div class="embla__slide"><img src="./img/fish1.jpg"></div>
+            <div class="embla__slide"><img src="./img/fish2.jpg"></div>
+            <div class="embla__slide"><img src="./img/fish3.jpg"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const emblaNode = document.querySelector('.embla');
+            const embla = EmblaCarousel(emblaNode, { loop: true }, [EmblaCarouselAutoplay()]);
+        });
+    </script>
+</body>
+</html>
