@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+#loader {
+    font-weight: bold;
+}

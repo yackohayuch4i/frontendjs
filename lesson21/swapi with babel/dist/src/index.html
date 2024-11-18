@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>swapi interface</title>
+    </head>
+
+    <body>
+        <form id="apiForm" action="https://swapi.dev/api">
+            <label for="endpoint">Endpoint:</label>
+            <input type="text" id="endpoint" name="endpoint"> 
+            <button type="submit">Fetch Data</button> 
+        </form> 
+
+        <div id="loader" class="hidden">Loading...</div> 
+        <pre id="results"></pre>
+        
+        <script type="module" src="script.js"></script>
+
+    </body>
+</html>
